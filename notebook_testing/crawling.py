@@ -84,6 +84,10 @@ class URLScraper:
         urls = []
         more_content_available = True
 
+        with tqdm(total = self.max_images, desc=f"Fetching Images for {term}", unit= "image") as pbar:
+            while len(urls) <= self.max_images:
+                ...
+
 
 
 
