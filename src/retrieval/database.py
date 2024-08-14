@@ -47,7 +47,7 @@ class ImageDatabase:
     """
     A class to handle image database operations from Chroma Database
     """
-    def __init__(self, collection_name = "image_collection"):
+    def __init__(self ,collection_name = "image_collection"):
         self.chroma_client = chromadb.Client()
         self.collection = self.chroma_client.get_or_create_collection(
             name=collection_name,
