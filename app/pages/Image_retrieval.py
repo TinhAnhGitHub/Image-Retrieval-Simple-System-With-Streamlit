@@ -26,13 +26,6 @@ PROJECR_ROOT = get_project_root()
 os.chdir(PROJECR_ROOT)
 sys.path.append(PROJECR_ROOT)
 
-
-
-
-
-
-
-
 st.markdown("""
 <style>
     
